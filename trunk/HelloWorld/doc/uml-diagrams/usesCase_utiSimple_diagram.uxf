@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>50</x>
+      <y>190</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Utilisateur simple
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>240</x>
+      <y>40</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Mettre à jours ses 
+informations personnelles
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>500</x>
+      <y>400</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Affecter / retirer 
+un plat
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>540</x>
+      <y>40</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Modifier son 
+mot de passe
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>280</x>
+      <y>330</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Affecter / retirer 
+un utilisateur
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>250</x>
+      <y>420</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Modifier le rang 
+d’un plat dans une sortie
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>390</x>
+      <y>570</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>S'authentifier
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>240</x>
+      <y>150</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Gérer les sorties
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>80</x>
+      <y>160</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>160;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>80</x>
+      <y>50</y>
+      <w>180</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>160;30;30;140</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>220</x>
+      <y>10</y>
+      <w>550</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>410</x>
+      <y>480</y>
+      <w>142</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>80;90;80;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>410</x>
+      <y>20</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;50;130;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>350</x>
+      <y>190</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;30;200;210</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>270</x>
+      <y>190</y>
+      <w>130</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>70;30;70;140</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>200</x>
+      <y>180</y>
+      <w>130</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>70;30;70;250</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>540</x>
+      <y>220</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Mettre à jours les sorties
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>540</x>
+      <y>310</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Supprimer les sorties
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>540</x>
+      <y>130</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Ajouter les sorties
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>410</x>
+      <y>160</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;30;140;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>120</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;50;140;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>380</x>
+      <y>180</y>
+      <w>240</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;30;220;130</additional_attributes>
+  </element>
+</diagram>
