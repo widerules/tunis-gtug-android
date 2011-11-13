@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>410</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Sortie
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>200</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>SimpleUser
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>40</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Region
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>470</x>
+      <y>40</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Restaurant
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>470</x>
+      <y>400</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Plat
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>470</x>
+      <y>520</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Ingredient
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>470</x>
+      <y>200</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Menu
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>80</x>
+      <y>240</y>
+      <w>118</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>m1=+listGuest  1..*
+m2=+listSortie  *
+organizes</panel_attributes>
+    <additional_attributes>60;30;60;170</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>190</x>
+      <y>30</y>
+      <w>300</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m2=*
+            in         +listRestaurant</panel_attributes>
+    <additional_attributes>30;50;280;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>480</x>
+      <y>80</y>
+      <w>116</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m2=+listMenu   1..*</panel_attributes>
+    <additional_attributes>60;30;60;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>480</x>
+      <y>240</y>
+      <w>104</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m2=+listPlat   1..*</panel_attributes>
+    <additional_attributes>60;30;60;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>440</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=  *</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>190</x>
+      <y>400</y>
+      <w>300</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>m1=*
+m2=*
+           is for                  +listPlat</panel_attributes>
+    <additional_attributes>30;50;280;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>90</x>
+      <y>80</y>
+      <w>86</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=  *
+ 
+    from</panel_attributes>
+    <additional_attributes>50;30;50;120</additional_attributes>
+  </element>
+</diagram>
