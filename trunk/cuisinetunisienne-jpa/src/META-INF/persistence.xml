@@ -5,5 +5,9 @@
 		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Restaurant</class>
 		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty</class>
 		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Ingredient</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.SimpleUser</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie</class>
 	</persistence-unit>
 </persistence>

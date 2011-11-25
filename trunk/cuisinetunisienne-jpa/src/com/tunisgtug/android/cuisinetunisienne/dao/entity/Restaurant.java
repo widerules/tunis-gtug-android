@@ -1,8 +1,13 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Temporal;
+import com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu;
+import java.util.Collection;
+import java.util.ArrayList;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Restaurant {
@@ -16,11 +21,18 @@ public class Restaurant {
 	
 	private String address;
 	
-	@Temporal(javax.persistence.TemporalType.DATE)
-	private String sincedate;
+	private Date sincedate;
 	
 	private int resrating;
 
+	private boolean homedelivery;
+	
+	private Date servicefrom;
+	
+	private Date serviceto;
+
+	@OneToMany
+	private Collection<Menu> listMenu = new ArrayList<Menu>();
 	
 	public Restaurant() {
 		super();
@@ -58,11 +70,11 @@ public class Restaurant {
 		return address;
 	}
 
-	public void setSincedate(String param) {
+	public void setSincedate(Date param) {
 		this.sincedate = param;
 	}
 
-	public String getSincedate() {
+	public Date getSincedate() {
 		return sincedate;
 	}
 
@@ -74,4 +86,36 @@ public class Restaurant {
 		return resrating;
 	}
 
+	public boolean getHomedelivery() {
+		return this.homedelivery;
+	}
+
+	public void setHomedelivery(boolean homedelivery) {
+		this.homedelivery = homedelivery;
+	}
+	
+	public Date getServicefrom() {
+		return this.servicefrom;
+	}
+
+	public void setServicefrom(Date servicefrom) {
+		this.servicefrom = servicefrom;
+	}
+	
+	public Date getServiceto() {
+		return this.serviceto;
+	}
+
+	public void setServiceto(Date serviceto) {
+		this.serviceto = serviceto;
+	}
+
+	public Collection<Menu> getListMenu() {
+	    return listMenu;
+	}
+
+	public void setListMenu(Collection<Menu> param) {
+	    this.listMenu = param;
+	}
+   
 }

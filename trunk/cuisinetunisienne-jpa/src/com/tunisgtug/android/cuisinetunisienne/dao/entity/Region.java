@@ -3,7 +3,6 @@ package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -14,7 +13,6 @@ public class Region {
 	@Id
 	private long regid;
 	
-	@Basic
 	private String regname;
 	
 	@OneToMany
