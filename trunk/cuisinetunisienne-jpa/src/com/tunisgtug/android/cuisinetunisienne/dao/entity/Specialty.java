@@ -1,27 +1,28 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
-import java.io.Serializable;
-import java.lang.String;
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * Entity implementation class for Entity: Specialty
  *
  */
 @Entity
+public class Specialty {
 
-public class Specialty implements Serializable {
-
-	   
 	@Id
 	private int spcid;
+	
 	private String spcname;
+	
 	private boolean homedelivery;
-	private static final long serialVersionUID = 1L;
 
+	
 	public Specialty() {
 		super();
-	}   
+	}
+	
+	
 	public int getSpcid() {
 		return this.spcid;
 	}

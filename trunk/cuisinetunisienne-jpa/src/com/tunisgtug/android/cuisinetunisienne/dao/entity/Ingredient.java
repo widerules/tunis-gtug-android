@@ -1,26 +1,25 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
-import java.io.Serializable;
-import java.lang.String;
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * Entity implementation class for Entity: Ingredient
  *
  */
 @Entity
+public class Ingredient {
 
-public class Ingredient implements Serializable {
-
-	   
 	@Id
 	private long ingid;
+	
 	private String ingname;
-	private static final long serialVersionUID = 1L;
 
+	
 	public Ingredient() {
 		super();
-	}   
+	}
+	
 	public long getIngid() {
 		return this.ingid;
 	}
