@@ -1,24 +1,26 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
-import com.tunisgtug.android.cuisinetunisienne.dao.ientity.IRegion;
-import com.tunisgtug.android.cuisinetunisienne.dao.entity.Restaurant;
-import java.util.Collection;
-import java.util.ArrayList;
 import javax.persistence.OneToMany;
 
-@Entity(name = "Region")
-public class Region implements IRegion {
+@Entity
+public class Region {
 
 	@Id
 	private long regid;
+	
 	@Basic
 	private String regname;
+	
 	@OneToMany
-	private Collection<Restaurant> restaurant = new ArrayList<Restaurant>();
+	private Collection<Restaurant> listRestaurant = new ArrayList<Restaurant>();
+	
+	
 	public long getRegid() {
 		return regid;
 	}
@@ -35,12 +37,16 @@ public class Region implements IRegion {
 		return regname;
 	}
 
-	public Collection<Restaurant> getRestaurant() {
-	    return restaurant;
+	public Collection<Restaurant> getListRestaurant() {
+	    return listRestaurant;
 	}
 
-	public void setRestaurant(Collection<Restaurant> param) {
-	    this.restaurant = param;
+	public void setListRestaurant(Collection<Restaurant> param) {
+	    this.listRestaurant = param;
+	}
+
+	public Region() {
+		super();
 	}
 
 }
