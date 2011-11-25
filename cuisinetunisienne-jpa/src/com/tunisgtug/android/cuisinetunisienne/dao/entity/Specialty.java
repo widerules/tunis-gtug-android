@@ -11,38 +11,29 @@ import javax.persistence.Id;
 public class Specialty {
 
 	@Id
-	private int spcid;
+	private long spcid;
 	
 	private String spcname;
 	
-	private boolean homedelivery;
-
 	
 	public Specialty() {
 		super();
 	}
 	
 	
-	public int getSpcid() {
+	public long getSpcid() {
 		return this.spcid;
 	}
 
-	public void setSpcid(int spcid) {
+	public void setSpcid(long spcid) {
 		this.spcid = spcid;
-	}   
+	}
+	
 	public String getSpcname() {
 		return this.spcname;
 	}
 
 	public void setSpcname(String spcname) {
 		this.spcname = spcname;
-	}   
-	public boolean getHomedelivery() {
-		return this.homedelivery;
 	}
-
-	public void setHomedelivery(boolean homedelivery) {
-		this.homedelivery = homedelivery;
-	}
-   
 }
