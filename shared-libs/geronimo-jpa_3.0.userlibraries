@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="geronimo-jpa_3.0" systemlibrary="false">
+        <archive path="D:/workspace/shared-libs/geronimo-jpa_3.0_spec-1.1.1.jar"/>
+    </library>
+</eclipse-userlibraries>
