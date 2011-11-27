@@ -1,22 +1,21 @@
 #labels Phase-Requirements,Phase-Implementation
-#Notre environnement de développement logiciel est illustré par le tableau suivant :
+# Notre environnement de développement logiciel est illustré par le tableau suivant :
 
-|| Natures ||                          Descriptions ||
-
-Langages de développement		:	JAVA, XML, SQL
-IDE					:	Eclipse[1] Indigo 3.7 + Plugin ADT[2] 15.0.0
-SDK mobile				:	Android 2.2[3] Froyo
-Serveur d'application			:	Google App Engine[4]
-SGBD					:	SQLite[5]
-Testeur de Web Service			:	SoapUI[6] (Plugin Eclipse)
-Outil de conception			:	UMLet[7] 11.3 (Plugin Eclipse)
-Editeurs				:	Google Documents[8], Notepad++[9], GIMP[10] 2.6, JPA Diagram Editor[11]
-Explorateur Internet			:	Google Chrome[12]
-Système de gestion de versions		:	Google Project Hosting[13]
-Client SVN				:	Subclipse[14] 1.8 (Plugin Eclipse)
-Système de suivie de production		:	Google Issue Tracker[15]
-Service de messagerie			:	Gmail[16]
-Client SQLite				:	SQLite manager[17] 0.7 (Extension Firefox)
+||	= Natures =	||	= Descriptions =	||
+||	Langages de développement	||	JAVA, XML, SQL	||
+||	IDE	||	Eclipse[1] Indigo 3.7 + Plugin ADT[2] 15.0.0	||
+||	SDK mobile	||	Android 2.2[3] Froyo	||
+||	Serveur d'application	||	Google App Engine[4]	||
+||	SGBD	||	SQLite[5]	||
+||	Testeur de Web Service	||	SoapUI[6] (Plugin Eclipse)	||
+||	Outil de conception	||	UMLet[7] 11.3 (Plugin Eclipse)	||
+||	Editeurs	||	Google Documents[8], Notepad++[9], GIMP[10] 2.6, JPA Diagram Editor[11]	||
+||	Explorateur Internet	||	Google Chrome[12]	||
+||	Système de gestion de versions	||	Google Project Hosting[13]	||
+||	Client SVN	||	Subclipse[14] 1.8 (Plugin Eclipse)	||
+||	Système de suivie de production	||	Google Issue Tracker[15]	||
+||	Service de messagerie	||	Gmail[16]	||
+||	Client SQLite	||	SQLite manager[17] 0.7 (Extension Firefox)	||
 
 
 [1] Eclipse : Peut être téléchargé à l’adresse suivante : http://www.eclipse.org
