@@ -7,7 +7,7 @@
     <properties key="basic collapsed" value="false"/>
     <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Restaurant"/>
-    <properties key="diagram.checksum" value="16592311-12870371208760-71-81-75-1166101"/>
+    <properties key="diagram.checksum" value="827610711559-87-96-114-73-105222106122-741"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="286" x="604" y="1" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -160,7 +160,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2" incomingConnections="//@connections.11"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.7" incomingConnections="//@connections.5"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -536,7 +536,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.4"/>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.9"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -791,7 +791,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0 //@connections.8"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0 //@connections.2"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -954,7 +954,7 @@
     <properties key="basic collapsed" value="false"/>
     <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie"/>
-    <properties key="diagram.checksum" value="196712183-10275-27-5278115477049-7-6268"/>
+    <properties key="diagram.checksum" value="-127113-4795362-14-623612122-40-48-88100-128"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="246" y="650" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -1180,9 +1180,9 @@
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie-listParticipants"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie-listPlats"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="listParticipants">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="listPlats">
             <font name="Arial" size="8" bold="true"/>
           </graphicsAlgorithmChildren>
         </graphicsAlgorithm>
@@ -1195,9 +1195,9 @@
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie-listPlats"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie-listParticipants"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="35">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="listPlats">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="listParticipants">
             <font name="Arial" size="8" bold="true"/>
           </graphicsAlgorithmChildren>
         </graphicsAlgorithm>
@@ -1300,7 +1300,7 @@
     <properties key="basic collapsed" value="false"/>
     <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.SortieLine"/>
-    <properties key="diagram.checksum" value="-51-123-11296734195-9991-47186-43-7881-116"/>
+    <properties key="diagram.checksum" value="83649137-5546-10090-10128-11011544-694971"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="226" x="225" y="660" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -1453,7 +1453,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1 //@connections.5"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1 //@connections.10"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -1629,9 +1629,9 @@
     <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu"/>
     <properties key="primary collapsed" value="false"/>
     <properties key="basic collapsed" value="false"/>
-    <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu"/>
-    <properties key="diagram.checksum" value="85114-119-64-128-281633-38-6856-11377-281916"/>
+    <properties key="relation collapsed" value="false"/>
+    <properties key="diagram.checksum" value="126-5610-75-8475-4764389153127-106-66-62-11"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="206" x="604" y="360" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -1784,7 +1784,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.3 //@connections.7" incomingConnections="//@connections.2"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.8 //@connections.12" incomingConnections="//@connections.7"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -1800,7 +1800,7 @@
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="prop_shape_type" value="HEADER"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="95" height="21" x="25" y="2">
-        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="95" height="20" x="1" y="2" verticalAlignment="ALIGNMENT_TOP" value="Menu">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="95" height="20" x="1" y="2" verticalAlignment="ALIGNMENT_TOP" value="* Menu">
           <font name="Arial" size="8" bold="true"/>
         </graphicsAlgorithmChildren>
       </graphicsAlgorithm>
@@ -1867,7 +1867,7 @@
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="prop_shape_type" value="ICON"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="35">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.one_to_many_relation" stretchH="false" stretchV="false" proportional="false"/>
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.many_to_one_relation" stretchH="false" stretchV="false" proportional="false"/>
         </graphicsAlgorithm>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -1945,9 +1945,9 @@
     <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty"/>
     <properties key="primary collapsed" value="false"/>
     <properties key="basic collapsed" value="false"/>
-    <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty"/>
-    <properties key="diagram.checksum" value="-751115-38-134666551131013-47-12439123-63"/>
+    <properties key="relation collapsed" value="false"/>
+    <properties key="diagram.checksum" value="126-265510-547211-119-66-37102-18-8417-114-19"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="146" x="392" y="390" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -2100,7 +2100,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.12" incomingConnections="//@connections.3 //@connections.6"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.6" incomingConnections="//@connections.8 //@connections.11"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -2116,7 +2116,7 @@
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="prop_shape_type" value="HEADER"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="95" height="21" x="25" y="2">
-        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="95" height="20" x="1" y="2" verticalAlignment="ALIGNMENT_TOP" value="Specialty">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="95" height="20" x="1" y="2" verticalAlignment="ALIGNMENT_TOP" value="* Specialty">
           <font name="Arial" size="8" bold="true"/>
         </graphicsAlgorithmChildren>
       </graphicsAlgorithm>
@@ -2218,7 +2218,7 @@
     <properties key="basic collapsed" value="false"/>
     <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine"/>
-    <properties key="diagram.checksum" value="102-7289101-67-931294-58110-13-125-75-102101"/>
+    <properties key="diagram.checksum" value="124-8186-91-60-23-531239-65115-23-12750-114-22"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="186" x="200" y="260" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -2371,7 +2371,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.9 //@connections.10"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.3 //@connections.4"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -2514,373 +2514,12 @@
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat"/>
-    <properties key="primary collapsed" value="false"/>
-    <properties key="basic collapsed" value="false"/>
-    <properties key="relation collapsed" value="false"/>
-    <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat"/>
-    <properties key="diagram.checksum" value="2279-28-12360-97123-12472-1-4097-93106-2045"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="266" x="604" y="640" cornerHeight="6" cornerWidth="6">
-      <renderingStyle>
-        <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
-          <adaptedGradientColoredAreas styleAdaption="0">
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                <color red="248" green="251" blue="254"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
-                <color red="248" green="251" blue="254"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
-                <color red="237" green="245" blue="252"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
-                <color red="237" green="245" blue="252"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
-                <color red="222" green="237" blue="250"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
-                <color red="222" green="237" blue="250"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
-                <color red="212" green="231" blue="248"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
-                <color red="250" green="251" blue="252"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
-                <color red="226" green="229" blue="233"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                <color red="226" green="229" blue="233"/>
-              </end>
-            </gradientColor>
-          </adaptedGradientColoredAreas>
-          <adaptedGradientColoredAreas styleAdaption="1">
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                <color red="238" green="246" blue="253"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
-                <color red="238" green="246" blue="253"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
-                <color red="208" green="230" blue="249"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
-                <color red="208" green="230" blue="249"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
-                <color red="172" green="210" blue="244"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
-                <color red="172" green="210" blue="244"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
-                <color red="129" green="185" blue="234"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
-                <color red="170" green="208" blue="242"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
-                <color red="154" green="191" blue="224"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                <color red="154" green="191" blue="224"/>
-              </end>
-            </gradientColor>
-          </adaptedGradientColoredAreas>
-          <adaptedGradientColoredAreas styleAdaption="2">
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                <color red="245" green="249" blue="254"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
-                <color red="245" green="249" blue="254"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
-                <color red="226" green="239" blue="252"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
-                <color red="226" green="239" blue="252"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
-                <color red="203" green="227" blue="249"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
-                <color red="203" green="227" blue="249"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
-                <color red="187" green="218" blue="247"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
-                <color red="197" green="224" blue="247"/>
-              </end>
-            </gradientColor>
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
-                <color red="178" green="205" blue="229"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                <color red="178" green="205" blue="229"/>
-              </end>
-            </gradientColor>
-          </adaptedGradientColoredAreas>
-          <adaptedGradientColoredAreas styleAdaption="3">
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                <color red="153" green="204"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                <color red="51" green="153" blue="102"/>
-              </end>
-            </gradientColor>
-          </adaptedGradientColoredAreas>
-          <adaptedGradientColoredAreas styleAdaption="4">
-            <gradientColor>
-              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                <color red="255" green="204"/>
-              </start>
-              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                <color red="255" green="102"/>
-              </end>
-            </gradientColor>
-          </adaptedGradientColoredAreas>
-        </adaptedGradientColoredAreas>
-      </renderingStyle>
-    </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.4 //@connections.6" incomingConnections="//@connections.5 //@connections.7"/>
-    <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
-        <points y="30"/>
-        <points x="120" y="30"/>
-      </graphicsAlgorithm>
-    </children>
-    <children xsi:type="pi:ContainerShape" visible="true">
-      <properties key="prop_shape_type" value="ICON"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="24" height="24">
-        <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="7" y="7" id="org.eclipse.jpt.ui.diagrameditor.entity" stretchH="false" stretchV="false" proportional="false"/>
-      </graphicsAlgorithm>
-    </children>
-    <children xsi:type="pi:ContainerShape" visible="true">
-      <properties key="prop_shape_type" value="HEADER"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="95" height="21" x="25" y="2">
-        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="95" height="20" x="1" y="2" verticalAlignment="ALIGNMENT_TOP" value="Plat">
-          <font name="Arial" size="8" bold="true"/>
-        </graphicsAlgorithmChildren>
-      </graphicsAlgorithm>
-    </children>
-    <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <properties key="prop_shape_type" value="COMPARTMENT"/>
-      <properties key="prop_attribs_num" value="1"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="120" height="38" y="30">
-        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="120" height="13" y="2" horizontalAlignment="ALIGNMENT_CENTER" value="Primary Key">
-          <font name="Arial" size="7" italic="true"/>
-        </graphicsAlgorithmChildren>
-      </graphicsAlgorithm>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2"/>
-      </children>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2" y="13"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.pk" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-platid"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="platid">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-    </children>
-    <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <properties key="prop_shape_type" value="COMPARTMENT"/>
-      <properties key="prop_attribs_num" value="2"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="120" height="58" y="68">
-        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="120" height="13" y="2" horizontalAlignment="ALIGNMENT_CENTER" value="Relation Attributes">
-          <font name="Arial" size="7" italic="true"/>
-        </graphicsAlgorithmChildren>
-      </graphicsAlgorithm>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2"/>
-      </children>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2" y="13"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.one_to_many_relation" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-listIngredient"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="listIngredient">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="35">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.one_to_many_relation" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-specialty"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="35">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="specialty">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-    </children>
-    <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <properties key="prop_shape_type" value="COMPARTMENT"/>
-      <properties key="prop_attribs_num" value="6"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="120" height="138" y="126">
-        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="120" height="13" y="2" horizontalAlignment="ALIGNMENT_CENTER" value="Other Attributes">
-          <font name="Arial" size="7" italic="true"/>
-        </graphicsAlgorithmChildren>
-      </graphicsAlgorithm>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2"/>
-      </children>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2" y="13"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-platname"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="platname">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="35">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-description"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="35">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="description">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="55">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-calories"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="55">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="calories">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="75">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-platrating"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="75">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="platrating">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="95">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-price"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="95">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="price">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <properties key="prop_shape_type" value="ICON"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="115">
-          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
-        </graphicsAlgorithm>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true" active="true">
-        <properties key="prop_shape_type" value="ATTRIBUTE"/>
-        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-preparationtime"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="115">
-          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="preparationtime">
-            <font name="Arial" size="8" bold="true"/>
-          </graphicsAlgorithmChildren>
-        </graphicsAlgorithm>
-      </children>
-    </children>
-  </children>
-  <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.SimpleUser"/>
     <properties key="primary collapsed" value="false"/>
     <properties key="basic collapsed" value="false"/>
     <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.SimpleUser"/>
-    <properties key="diagram.checksum" value="-98-65-35-942441911781-942491-3696-64-45"/>
+    <properties key="diagram.checksum" value="-481572-67111-51-29-101-362629-37103-9411192"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="266" y="1" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -3033,7 +2672,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8 //@connections.9"/>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2 //@connections.3"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -3236,12 +2875,373 @@
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat"/>
+    <properties key="primary collapsed" value="false"/>
+    <properties key="basic collapsed" value="false"/>
+    <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat"/>
+    <properties key="relation collapsed" value="false"/>
+    <properties key="diagram.checksum" value="-22-3228-10272-80122-93-108-48-1085616-86724"/>
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="266" x="604" y="640" cornerHeight="6" cornerWidth="6">
+      <renderingStyle>
+        <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
+          <adaptedGradientColoredAreas styleAdaption="0">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="248" green="251" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="248" green="251" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="237" green="245" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="237" green="245" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="222" green="237" blue="250"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="222" green="237" blue="250"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="212" green="231" blue="248"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="250" green="251" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="226" green="229" blue="233"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="226" green="229" blue="233"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="1">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="238" green="246" blue="253"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="238" green="246" blue="253"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="208" green="230" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="208" green="230" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="172" green="210" blue="244"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="172" green="210" blue="244"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="129" green="185" blue="234"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="170" green="208" blue="242"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="154" green="191" blue="224"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="154" green="191" blue="224"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="2">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="245" green="249" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="245" green="249" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="226" green="239" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="226" green="239" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="203" green="227" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="203" green="227" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="187" green="218" blue="247"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="197" green="224" blue="247"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="178" green="205" blue="229"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="178" green="205" blue="229"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="3">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="153" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="51" green="153" blue="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="4">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="255" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="255" green="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+        </adaptedGradientColoredAreas>
+      </renderingStyle>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.9 //@connections.11" incomingConnections="//@connections.10 //@connections.12"/>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
+        <points y="30"/>
+        <points x="120" y="30"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <properties key="prop_shape_type" value="ICON"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="24" height="24">
+        <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="7" y="7" id="org.eclipse.jpt.ui.diagrameditor.entity" stretchH="false" stretchV="false" proportional="false"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <properties key="prop_shape_type" value="HEADER"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="95" height="21" x="25" y="2">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="95" height="20" x="1" y="2" verticalAlignment="ALIGNMENT_TOP" value="* Plat">
+          <font name="Arial" size="8" bold="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="prop_shape_type" value="COMPARTMENT"/>
+      <properties key="prop_attribs_num" value="1"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="120" height="38" y="30">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="120" height="13" y="2" horizontalAlignment="ALIGNMENT_CENTER" value="Primary Key">
+          <font name="Arial" size="7" italic="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2" y="13"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="15">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.pk" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-platid"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="platid">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="prop_shape_type" value="COMPARTMENT"/>
+      <properties key="prop_attribs_num" value="2"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="120" height="58" y="68">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="120" height="13" y="2" horizontalAlignment="ALIGNMENT_CENTER" value="Relation Attributes">
+          <font name="Arial" size="7" italic="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2" y="13"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="15">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.one_to_many_relation" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-listIngredient"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="listIngredient">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="35">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.many_to_one_relation" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-specialty"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="35">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="specialty">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="prop_shape_type" value="COMPARTMENT"/>
+      <properties key="prop_attribs_num" value="6"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="120" height="138" y="126">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="120" height="13" y="2" horizontalAlignment="ALIGNMENT_CENTER" value="Other Attributes">
+          <font name="Arial" size="7" italic="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" foreground="//@colors.3" lineVisible="false" width="120" height="2" y="13"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="15">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-platname"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="15">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="platname">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="35">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-description"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="35">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="description">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="55">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-calories"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="55">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="calories">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="75">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-platrating"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="75">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="platrating">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="95">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-price"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="95">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="price">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="prop_shape_type" value="ICON"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="20" height="20" y="115">
+          <graphicsAlgorithmChildren xsi:type="al:Image" width="16" height="16" x="4" y="4" id="org.eclipse.jpt.ui.diagrameditor.field" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="prop_shape_type" value="ATTRIBUTE"/>
+        <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-preparationtime"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" filled="false" lineVisible="false" width="99" height="30" x="21" y="115">
+          <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" width="99" height="30" x="1" y="-2" verticalAlignment="ALIGNMENT_TOP" value="preparationtime">
+            <font name="Arial" size="8" bold="true"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Region"/>
     <properties key="primary collapsed" value="false"/>
     <properties key="basic collapsed" value="false"/>
     <properties key="relation collapsed" value="false"/>
     <properties key="prop_entity_class_name" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Region"/>
-    <properties key="diagram.checksum" value="3427125125-69106-5411499-849313-49-111-72-71"/>
+    <properties key="diagram.checksum" value="1058-85-9-898852-50117-49-9-7-62-5174-120"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" width="120" height="166" x="392" y="61" cornerHeight="6" cornerWidth="6">
       <renderingStyle>
         <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
@@ -3394,7 +3394,7 @@
         </adaptedGradientColoredAreas>
       </renderingStyle>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11" incomingConnections="//@connections.10 //@connections.12"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.5" incomingConnections="//@connections.4 //@connections.6"/>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false">
         <points y="30"/>
@@ -3587,206 +3587,7 @@
     <bendpoints x="225" y="773"/>
     <bendpoints x="120" y="773"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.5/@anchors.0">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Restaurant-com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu;1-N;->;listMenu"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
-    <connectionDecorators visible="true" locationRelative="true" location="0.9">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-7">
-        <points x="-2" y="7"/>
-        <points x="6"/>
-        <points x="-2" y="-7"/>
-        <points x="6"/>
-        <points x="20" y="3"/>
-        <points x="20" y="-3"/>
-        <points x="7"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="5" value="0..1">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="-13" value="0..N">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="5" y="15" value="listMenu">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="664" y="287"/>
-    <bendpoints x="664" y="360"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.0" end="//@children.6/@anchors.0">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu-com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;1-N;->;specialty"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
-    <connectionDecorators visible="true" locationRelative="true" location="0.9">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-9">
-        <points x="-2" y="7"/>
-        <points x="6"/>
-        <points x="-2" y="-7"/>
-        <points x="6"/>
-        <points x="20" y="3"/>
-        <points x="20" y="-3"/>
-        <points x="7"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..1">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="7" y="-16" value="0..N">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-54" y="2" value="specialty">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="604" y="463"/>
-    <bendpoints x="512" y="463"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.8/@anchors.0" end="//@children.1/@anchors.0">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-com.tunisgtug.android.cuisinetunisienne.dao.entity.Ingredient;1-N;->;listIngredient"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
-    <connectionDecorators visible="true" locationRelative="true" location="0.9">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-15">
-        <points x="-2" y="7"/>
-        <points x="6"/>
-        <points x="-2" y="-7"/>
-        <points x="6"/>
-        <points x="20" y="3"/>
-        <points x="20" y="-3"/>
-        <points x="7"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..1">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="7" y="-16" value="0..N">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-84" y="2" value="listIngredient">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="604" y="792"/>
-    <bendpoints x="547" y="792"/>
-    <bendpoints x="547" y="829"/>
-    <bendpoints x="489" y="829"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@anchors.0" end="//@children.8/@anchors.0">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.SortieLine-com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;N-1;->;plat"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
-    <connectionDecorators visible="true" locationRelative="true" location="0.1">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="25">
-        <points y="7"/>
-        <points x="-8"/>
-        <points y="-7"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" locationRelative="true" location="0.9">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-25">
-        <points x="11" y="3"/>
-        <points/>
-        <points x="11" y="-3"/>
-        <points x="11" y="3"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="7" y="-16" value="0..N">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="17" y="2" value="plat">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..1">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="345" y="773"/>
-    <bendpoints x="604" y="773"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.8/@anchors.0" end="//@children.6/@anchors.0">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;1-N;->;specialty"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
-    <connectionDecorators visible="true" locationRelative="true" location="0.9">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-25">
-        <points x="-2" y="7"/>
-        <points x="6"/>
-        <points x="-2" y="-7"/>
-        <points x="6"/>
-        <points x="20" y="3"/>
-        <points x="20" y="-3"/>
-        <points x="7"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..1">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="5" value="0..N">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-54" y="2" value="specialty">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="604" y="685"/>
-    <bendpoints x="502" y="685"/>
-    <bendpoints x="502" y="536"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.0" end="//@children.8/@anchors.0">
-    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu-com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;1-N;->;listPlat"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
-    <connectionDecorators visible="true" locationRelative="true" location="0.9">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-7">
-        <points x="-2" y="7"/>
-        <points x="6"/>
-        <points x="-2" y="-7"/>
-        <points x="6"/>
-        <points x="20" y="3"/>
-        <points x="20" y="-3"/>
-        <points x="7"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="5" value="0..1">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="-13" value="0..N">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <connectionDecorators visible="true" active="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="5" y="15" value="listPlat">
-        <font name="Arial" size="8"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="664" y="566"/>
-    <bendpoints x="664" y="640"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.9/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.8/@anchors.0">
     <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.UserLine-com.tunisgtug.android.cuisinetunisienne.dao.entity.SimpleUser;N-1;&lt;->;simpleUser"/>
     <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
     <connectionDecorators visible="true" locationRelative="true" location="0.1">
@@ -3819,7 +3620,7 @@
     <bendpoints x="60" y="360"/>
     <bendpoints x="60" y="267"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.7/@anchors.0" end="//@children.9/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.7/@anchors.0" end="//@children.8/@anchors.0">
     <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine-com.tunisgtug.android.cuisinetunisienne.dao.entity.SimpleUser;N-1;&lt;->;simpleUser"/>
     <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
     <connectionDecorators visible="true" locationRelative="true" location="0.1">
@@ -3952,6 +3753,213 @@
     </connectionDecorators>
     <bendpoints x="452" y="390"/>
     <bendpoints x="452" y="227"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.5/@anchors.0">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Restaurant-com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu;1-N;->;listMenu"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
+    <connectionDecorators visible="true" locationRelative="true" location="0.9">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-7">
+        <points x="-2" y="7"/>
+        <points x="6"/>
+        <points x="-2" y="-7"/>
+        <points x="6"/>
+        <points x="20" y="3"/>
+        <points x="20" y="-3"/>
+        <points x="7"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="5" value="0..1">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="-13" value="0..N">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="5" y="15" value="listMenu">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="664" y="287"/>
+    <bendpoints x="664" y="360"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.0" end="//@children.6/@anchors.0">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu-com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;N-1;->;specialty"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
+    <connectionDecorators visible="true" locationRelative="true" location="0.1">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="9">
+        <points y="7"/>
+        <points x="-8"/>
+        <points y="-7"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" locationRelative="true" location="0.9">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-9">
+        <points x="11" y="3"/>
+        <points/>
+        <points x="11" y="-3"/>
+        <points x="11" y="3"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..N">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-54" y="2" value="specialty">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="7" y="-16" value="0..1">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="604" y="463"/>
+    <bendpoints x="512" y="463"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.9/@anchors.0" end="//@children.1/@anchors.0">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-com.tunisgtug.android.cuisinetunisienne.dao.entity.Ingredient;1-N;->;listIngredient"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
+    <connectionDecorators visible="true" locationRelative="true" location="0.9">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-15">
+        <points x="-2" y="7"/>
+        <points x="6"/>
+        <points x="-2" y="-7"/>
+        <points x="6"/>
+        <points x="20" y="3"/>
+        <points x="20" y="-3"/>
+        <points x="7"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..1">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="7" y="-16" value="0..N">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-84" y="2" value="listIngredient">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="604" y="792"/>
+    <bendpoints x="547" y="792"/>
+    <bendpoints x="547" y="829"/>
+    <bendpoints x="489" y="829"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@anchors.0" end="//@children.9/@anchors.0">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.SortieLine-com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;N-1;->;plat"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
+    <connectionDecorators visible="true" locationRelative="true" location="0.1">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="25">
+        <points y="7"/>
+        <points x="-8"/>
+        <points y="-7"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" locationRelative="true" location="0.9">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-25">
+        <points x="11" y="3"/>
+        <points/>
+        <points x="11" y="-3"/>
+        <points x="11" y="3"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="7" y="-16" value="0..N">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="17" y="2" value="plat">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..1">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="345" y="773"/>
+    <bendpoints x="604" y="773"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.9/@anchors.0" end="//@children.6/@anchors.0">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat-com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;N-1;->;specialty"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
+    <connectionDecorators visible="true" locationRelative="true" location="0.1">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="25">
+        <points y="7"/>
+        <points x="-8"/>
+        <points y="-7"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" locationRelative="true" location="0.9">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-25">
+        <points x="11" y="3"/>
+        <points/>
+        <points x="11" y="-3"/>
+        <points x="11" y="3"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-24" y="-16" value="0..N">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-54" y="2" value="specialty">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="5" value="0..1">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="604" y="685"/>
+    <bendpoints x="502" y="685"/>
+    <bendpoints x="502" y="536"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.0" end="//@children.9/@anchors.0">
+    <properties key="independentObject" value="com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu-com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;1-N;->;listPlat"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false"/>
+    <connectionDecorators visible="true" locationRelative="true" location="0.9">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" x="-7">
+        <points x="-2" y="7"/>
+        <points x="6"/>
+        <points x="-2" y="-7"/>
+        <points x="6"/>
+        <points x="20" y="3"/>
+        <points x="20" y="-3"/>
+        <points x="7"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="5" value="0..1">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="-29" y="-13" value="0..N">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <connectionDecorators visible="true" active="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="2" x="5" y="15" value="listPlat">
+        <font name="Arial" size="8"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="664" y="566"/>
+    <bendpoints x="664" y="640"/>
   </connections>
   <colors red="227" green="238" blue="249"/>
   <colors red="255" green="255" blue="255"/>

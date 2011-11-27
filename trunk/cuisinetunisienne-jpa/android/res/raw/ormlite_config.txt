@@ -1,0 +1,29 @@
+#
+# generated on 2011/11/27 05:09:43
+#
+# --table-start--
+dataClass=com.tunisgtug.android.cuisinetunisienne.dao.entity.Ingredient
+tableName=ingredient
+# --table-fields-start--
+# --field-start--
+fieldName=ingid
+dataPersister=LONG
+id=true
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat
+tableName=plat
+# --table-fields-start--
+# --field-start--
+fieldName=platid
+dataPersister=LONG
+id=true
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

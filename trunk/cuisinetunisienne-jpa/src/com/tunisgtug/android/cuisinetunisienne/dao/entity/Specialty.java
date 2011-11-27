@@ -1,10 +1,10 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import com.tunisgtug.android.cuisinetunisienne.dao.entity.Region;
-import java.util.Collection;
-import java.util.ArrayList;
 import javax.persistence.OneToMany;
 
 /**
@@ -21,8 +21,7 @@ public class Specialty {
 
 	@OneToMany
 	private Collection<Region> region = new ArrayList<Region>();
-	
-	
+
 	public Specialty() {
 		super();
 	}
