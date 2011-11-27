@@ -1,12 +1,13 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;
-import java.util.Collection;
-import java.util.ArrayList;
 import javax.persistence.OneToMany;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;
+import javax.persistence.ManyToOne;
 
 /**
  * Entity implementation class for Entity: Menu
@@ -26,11 +27,10 @@ public class Menu {
 	
 	@OneToMany
 	private Collection<Plat> listPlat = new ArrayList<Plat>();
-	
-	@OneToMany
-	private Collection<Specialty> specialty = new ArrayList<Specialty>();
-	
-	
+
+	@ManyToOne
+	private Specialty specialty;
+
 	public Menu() {
 		super();
 	}
@@ -79,12 +79,12 @@ public class Menu {
 	}
 
 
-	public Collection<Specialty> getSpecialty() {
+	public Specialty getSpecialty() {
 	    return specialty;
 	}
 
 
-	public void setSpecialty(Collection<Specialty> param) {
+	public void setSpecialty(Specialty param) {
 	    this.specialty = param;
 	}
    
