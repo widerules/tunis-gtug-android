@@ -9,5 +9,8 @@
 		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu</class>
 		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat</class>
 		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.Sortie</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.SortieLine</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.UserLine</class>
+		<class>com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine</class>
 	</persistence-unit>
 </persistence>

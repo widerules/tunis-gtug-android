@@ -1,9 +1,12 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 /**
  * Entity implementation class for Entity: Sortie
@@ -14,11 +17,22 @@ public class Sortie {
 
 	@Id
 	private int sorid;
+	
 	private String description;
+	
 	private String address;
+	
 	private Date startdate;
+	
 	private Date enddate;
+	
 	private int sorrating;
+	
+	@OneToMany(mappedBy = "sortie")
+	private Collection<SortieLine> listPlats = new ArrayList<SortieLine>();
+
+	@OneToMany(mappedBy = "sortie")
+	private Collection<UserLine> listParticipants = new ArrayList<UserLine>();
 
 	
 	public Sortie() {
@@ -71,6 +85,22 @@ public class Sortie {
 
 	public void setSorrating(int sorrating) {
 		this.sorrating = sorrating;
+	}
+
+	public Collection<SortieLine> getListPlats() {
+	    return listPlats;
+	}
+
+	public void setListPlats(Collection<SortieLine> param) {
+	    this.listPlats = param;
+	}
+
+	public Collection<UserLine> getListParticipants() {
+	    return listParticipants;
+	}
+
+	public void setListParticipants(Collection<UserLine> param) {
+	    this.listParticipants = param;
 	}
    
 }
