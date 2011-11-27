@@ -6,6 +6,7 @@ import com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;
 import java.util.Collection;
 import java.util.ArrayList;
 import javax.persistence.OneToMany;
+import com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;
 
 /**
  * Entity implementation class for Entity: Menu
@@ -16,11 +17,20 @@ public class Menu {
 
 	@Id
 	private long menuid;
+	
 	private String menuname;
+	
 	private int menurating;
+	
 	private int totalprice;
+	
 	@OneToMany
 	private Collection<Plat> listPlat = new ArrayList<Plat>();
+	
+	@OneToMany
+	private Collection<Specialty> specialty = new ArrayList<Specialty>();
+	
+	
 	public Menu() {
 		super();
 	}
@@ -66,6 +76,16 @@ public class Menu {
 
 	public void setListPlat(Collection<Plat> param) {
 	    this.listPlat = param;
+	}
+
+
+	public Collection<Specialty> getSpecialty() {
+	    return specialty;
+	}
+
+
+	public void setSpecialty(Collection<Specialty> param) {
+	    this.specialty = param;
 	}
    
 }

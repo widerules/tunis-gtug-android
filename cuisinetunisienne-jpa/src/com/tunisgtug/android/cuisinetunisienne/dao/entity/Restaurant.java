@@ -34,10 +34,12 @@ public class Restaurant {
 	@OneToMany
 	private Collection<Menu> listMenu = new ArrayList<Menu>();
 	
+	
 	public Restaurant() {
 		super();
 	}
 
+	
 	public long getResid() {
 		return resid;
 	}

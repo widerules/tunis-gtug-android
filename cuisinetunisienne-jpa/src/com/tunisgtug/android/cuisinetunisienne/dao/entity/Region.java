@@ -6,6 +6,7 @@ import java.util.Collection;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine;
 
 @Entity
 public class Region {
@@ -17,8 +18,15 @@ public class Region {
 	
 	@OneToMany
 	private Collection<Restaurant> listRestaurant = new ArrayList<Restaurant>();
+
+	@OneToMany(mappedBy = "region")
+	private Collection<RegionLine> listCityzens = new ArrayList<RegionLine>();
+
 	
-	
+	public Region() {
+		super();
+	}
+
 	public long getRegid() {
 		return regid;
 	}
@@ -43,8 +51,12 @@ public class Region {
 	    this.listRestaurant = param;
 	}
 
-	public Region() {
-		super();
+	public Collection<RegionLine> getListCityzens() {
+	    return listCityzens;
+	}
+
+	public void setListCityzens(Collection<RegionLine> param) {
+	    this.listCityzens = param;
 	}
 
 }

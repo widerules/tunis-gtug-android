@@ -1,9 +1,13 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine;
 
 /**
  * Entity implementation class for Entity: SimpleUser
@@ -14,14 +18,26 @@ public class SimpleUser {
 
 	@Id
 	private long userid;
+	
 	private String password;
+	
 	private String username;
+	
 	private String firstname;
+	
 	private String address;
+	
 	private String email;
+	
 	private Date membershipdate;
+	
+	@OneToMany(mappedBy = "simpleUser")
+	private Collection<UserLine> listSortie = new ArrayList<UserLine>();
 
+	@OneToMany(mappedBy = "simpleUser")
+	private Collection<RegionLine> listRegion = new ArrayList<RegionLine>();
 
+	
 	public SimpleUser() {
 		super();
 	}
@@ -75,6 +91,26 @@ public class SimpleUser {
 
 	public void setMembershipdate(Date membershipdate) {
 		this.membershipdate = membershipdate;
+	}
+
+
+	public Collection<UserLine> getListSortie() {
+	    return listSortie;
+	}
+
+
+	public void setListSortie(Collection<UserLine> param) {
+	    this.listSortie = param;
+	}
+
+
+	public Collection<RegionLine> getListRegion() {
+	    return listRegion;
+	}
+
+
+	public void setListRegion(Collection<RegionLine> param) {
+	    this.listRegion = param;
 	}   
 
 }
