@@ -8,28 +8,28 @@ package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 public class UserLinePK {   
    
 	         
-	private long userid;
+	private int userid;
 	
-	private long sorid;
+	private int sorid;
 
 	
 	public UserLinePK() {}
 	
 
-	public long getUserid() {
+	public int getUserid() {
 		return this.userid;
 	}
 
-	public void setUserid(long userid) {
+	public void setUserid(int userid) {
 		this.userid = userid;
 	}
 	
 
-	public long getSorid() {
+	public int getSorid() {
 		return this.sorid;
 	}
 
-	public void setSorid(long sorid) {
+	public void setSorid(int sorid) {
 		this.sorid = sorid;
 	}
 	

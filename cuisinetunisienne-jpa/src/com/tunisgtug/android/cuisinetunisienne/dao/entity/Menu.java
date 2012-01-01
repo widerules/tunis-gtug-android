@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;
@@ -17,7 +18,8 @@ import javax.persistence.ManyToOne;
 public class Menu {
 
 	@Id
-	private long menuid;
+	@GeneratedValue
+	private int menuid;
 	
 	private String menuname;
 	
@@ -36,11 +38,11 @@ public class Menu {
 	}
 	
 	
-	public long getMenuid() {
+	public int getMenuid() {
 		return this.menuid;
 	}
 
-	public void setMenuid(long menuid) {
+	public void setMenuid(int menuid) {
 		this.menuid = menuid;
 	}
 	

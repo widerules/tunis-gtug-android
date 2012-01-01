@@ -5,6 +5,7 @@ import java.util.Collection;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.Specialty;
@@ -18,7 +19,8 @@ import javax.persistence.ManyToOne;
 public class Plat {
 
 	@Id
-	private long platid;
+	@GeneratedValue
+	private int platid;
 	
 	@Column
 	private String platname;
@@ -49,11 +51,11 @@ public class Plat {
 	}
 	
 	
-	public long getPlatid() {
+	public int getPlatid() {
 		return this.platid;
 	}
 
-	public void setPlatid(long platid) {
+	public void setPlatid(int platid) {
 		this.platid = platid;
 	}
 	

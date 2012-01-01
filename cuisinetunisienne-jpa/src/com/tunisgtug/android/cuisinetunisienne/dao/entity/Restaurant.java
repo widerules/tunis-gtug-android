@@ -3,6 +3,7 @@ package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.Menu;
 import java.util.Collection;
@@ -13,7 +14,8 @@ import javax.persistence.OneToMany;
 public class Restaurant {
 
 	@Id
-	private long resid;
+	@GeneratedValue
+	private int resid;
 	
 	private String resname;
 	
@@ -40,11 +42,11 @@ public class Restaurant {
 	}
 
 	
-	public long getResid() {
+	public int getResid() {
 		return resid;
 	}
 
-	public void setResid(long id) {
+	public void setResid(int id) {
 		this.resid = id;
 	}
 
