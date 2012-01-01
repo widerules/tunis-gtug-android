@@ -17,10 +17,10 @@ public class RegionLine {
 
 	   
 	@Id
-	private long regid;
+	private int regid;
 	
 	@Id
-	private long userid;
+	private int userid;
 	
 	private int regRank;
 	
@@ -36,18 +36,18 @@ public class RegionLine {
 	}
 	
 	
-	public long getRegid() {
+	public int getRegid() {
 		return this.regid;
 	}
 
-	public void setRegid(long regid) {
+	public void setRegid(int regid) {
 		this.regid = regid;
 	}   
-	public long getUserid() {
+	public int getUserid() {
 		return this.userid;
 	}
 
-	public void setUserid(long userid) {
+	public void setUserid(int userid) {
 		this.userid = userid;
 	}   
 	public int getRegRank() {

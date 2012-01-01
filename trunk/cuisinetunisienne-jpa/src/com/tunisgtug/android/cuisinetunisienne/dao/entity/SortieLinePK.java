@@ -8,27 +8,27 @@ package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 public class SortieLinePK {   
    
 	         
-	private long sorid;         
-	private long platid;
+	private int sorid;         
+	private int platid;
 	
 
 	public SortieLinePK() {}
 
 
-	public long getSorid() {
+	public int getSorid() {
 		return this.sorid;
 	}
 
-	public void setSorid(long sorid) {
+	public void setSorid(int sorid) {
 		this.sorid = sorid;
 	}
 	
 
-	public long getPlatid() {
+	public int getPlatid() {
 		return this.platid;
 	}
 
-	public void setPlatid(long platid) {
+	public void setPlatid(int platid) {
 		this.platid = platid;
 	}
 	

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
@@ -15,7 +16,8 @@ import javax.persistence.OneToMany;
 public class Specialty {
 
 	@Id
-	private long spcid;
+	@GeneratedValue
+	private int spcid;
 	
 	private String spcname;
 
@@ -27,11 +29,11 @@ public class Specialty {
 	}
 	
 	
-	public long getSpcid() {
+	public int getSpcid() {
 		return this.spcid;
 	}
 
-	public void setSpcid(long spcid) {
+	public void setSpcid(int spcid) {
 		this.spcid = spcid;
 	}
 	

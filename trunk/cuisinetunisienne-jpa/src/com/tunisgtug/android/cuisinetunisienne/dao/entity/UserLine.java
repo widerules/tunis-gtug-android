@@ -21,10 +21,10 @@ import com.tunisgtug.android.cuisinetunisienne.dao.entity.SimpleUser;
 public class UserLine {
 	   
 	@Id
-	private long userid;
+	private int userid;
 	
 	@Id
-	private long sorid;
+	private int sorid;
 	
 	private Date addedDate;
 	
@@ -44,19 +44,19 @@ public class UserLine {
 	}
 	
 	
-	public long getUserid() {
+	public int getUserid() {
 		return this.userid;
 	}
 
-	public void setUserid(long userid) {
+	public void setUserid(int userid) {
 		this.userid = userid;
 	}
 	
-	public long getSorid() {
+	public int getSorid() {
 		return this.sorid;
 	}
 
-	public void setSorid(long sorid) {
+	public void setSorid(int sorid) {
 		this.sorid = sorid;
 	}
 	

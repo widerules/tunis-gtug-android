@@ -1,6 +1,8 @@
 package com.tunisgtug.android.cuisinetunisienne.dao.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -11,8 +13,10 @@ import javax.persistence.Id;
 public class Ingredient {
 
 	@Id
-	private long ingid;
-	
+	@GeneratedValue
+	private int ingid;
+
+	@Column
 	private String ingname;
 
 	
@@ -20,11 +24,11 @@ public class Ingredient {
 		super();
 	}
 	
-	public long getIngid() {
+	public int getIngid() {
 		return this.ingid;
 	}
 
-	public void setIngid(long ingid) {
+	public void setIngid(int ingid) {
 		this.ingid = ingid;
 	}   
 	public String getIngname() {

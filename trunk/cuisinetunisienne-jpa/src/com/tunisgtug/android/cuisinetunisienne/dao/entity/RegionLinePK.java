@@ -7,27 +7,27 @@ package com.tunisgtug.android.cuisinetunisienne.dao.entity;
  */ 
 public class RegionLinePK {
 	         
-	private long regid;
+	private int regid;
 	
-	private long userid;
+	private int userid;
 
 	public RegionLinePK() {}
 
 
-	public long getRegid() {
+	public int getRegid() {
 		return this.regid;
 	}
 
-	public void setRegid(long regid) {
+	public void setRegid(int regid) {
 		this.regid = regid;
 	}
 	
 
-	public long getUserid() {
+	public int getUserid() {
 		return this.userid;
 	}
 
-	public void setUserid(long userid) {
+	public void setUserid(int userid) {
 		this.userid = userid;
 	}
 	

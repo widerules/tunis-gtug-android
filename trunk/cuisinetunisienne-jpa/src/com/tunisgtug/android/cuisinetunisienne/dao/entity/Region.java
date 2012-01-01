@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine;
@@ -12,7 +13,8 @@ import com.tunisgtug.android.cuisinetunisienne.dao.entity.RegionLine;
 public class Region {
 
 	@Id
-	private long regid;
+	@GeneratedValue
+	private int regid;
 	
 	private String regname;
 	
@@ -27,11 +29,11 @@ public class Region {
 		super();
 	}
 
-	public long getRegid() {
+	public int getRegid() {
 		return regid;
 	}
 
-	public void setRegid(long id) {
+	public void setRegid(int id) {
 		this.regid = id;
 	}
 
