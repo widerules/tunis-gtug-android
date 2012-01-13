@@ -5,11 +5,15 @@ import java.sql.SQLException;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import test.com.tunisgtug.android.cuisinetunisienne.dao.TestHelper;
+
+import com.j256.ormlite.dao.DaoManager;
 import com.j256.ormlite.dao.RuntimeExceptionDao;
 import com.j256.ormlite.jdbc.JdbcPooledConnectionSource;
 import com.j256.ormlite.spring.TableCreator;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
+import com.tunisgtug.android.cuisinetunisienne.as.PlatAS;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.Ingredient;
 import com.tunisgtug.android.cuisinetunisienne.dao.entity.Plat;
 import com.tunisgtug.android.cuisinetunisienne.service.common.VariableHolder;
@@ -19,30 +23,20 @@ import com.tunisgtug.android.cuisinetunisienne.service.common.VariableHolder;
  * JUnit Test case class for : Plat - Ingredient
  *
  */
-public class TestPlatIngredient {
-	// we are using the "test.sqlite" database
-	private final static String DATABASE_URL = "jdbc:sqlite:android/res/test.sqlite";
+public class TestPlatIngredient extends TestHelper {
 
 	// here is a list of XML files to be loaded by Spring
 	private String[] configNames = new String[] { "classpath:/com/tunisgtug/android/cuisinetunisienne/spring/db.xml" };
 	
-	private RuntimeExceptionDao<Plat, Long> platDao;
+	TestPlatIngredient() throws SQLException {
+		super(new Class<?>[]{Plat.class, Ingredient.class});
+	}
 
 	@Test
-	public void testPlatIngredient() {
-		
-		try{
-			VariableHolder.setConnection(getConnection());
-			
-			setupDatabase(getConnection());
-			Plat l_plat = getNewPlat();
-			addIngredient(l_plat);
-			
-			platDao.create(l_plat);
-		}
-		catch (SQLException e) {
-			e.printStackTrace();
-		}
+	public void testPlatIngredient() throws SQLException {
+		Plat l_plat = getNewPlat();
+		addIngredient(l_plat);
+		getPlatDao().create(l_plat);
 	}
 
 	private Plat getNewPlat() {
@@ -63,31 +57,4 @@ public class TestPlatIngredient {
 		p_plat.getListIngredient().add(l_ingredient);
 	}
 
-	/**
-	 * Setup JDBC Connection for test
-	 */
-	private ConnectionSource getConnection() throws SQLException {
-		// pooled connection source
-		JdbcPooledConnectionSource l_connectionSource = new JdbcPooledConnectionSource(DATABASE_URL);
-		// only keep the connections open for 5 minutes
-		l_connectionSource.setMaxConnectionAgeMillis(5 * 60 * 1000);
-		// change the check-every milliseconds from 30 seconds to 60
-		l_connectionSource.setCheckConnectionsEveryMillis(60 * 1000);
-		// for extra protection, enable the testing of connections
-		// right before they are handed to the user
-		l_connectionSource.setTestBeforeGet(true);
-		return l_connectionSource;
-	}
-	
-	/**
-	 * Setup our database and DAOs
-	 */
-	private void setupDatabase(ConnectionSource p_connectionSource) throws SQLException {
-		
-		platDao = RuntimeExceptionDao.createDao(p_connectionSource, Plat.class);
-
-		TableUtils.dropTable(p_connectionSource, Plat.class, false);
-		// if you need to create the table
-		TableUtils.createTable(p_connectionSource, Plat.class);
-	}
 }
