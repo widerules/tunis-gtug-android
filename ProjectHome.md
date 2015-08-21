@@ -1,0 +1,1 @@
+This app is a simple guide to Tunisian cuisine and cultural heritage (food and drink) in a city like Tunis or Hammamet. The application allows the user to search in restaurants, hotels or even in the famous corners, with the ability to browse the special offers and menu lists. All information is stored in a database (SQL) downloaded as part of the application.
